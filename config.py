@@ -21,11 +21,11 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "2145093972").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Noob-Mukesh/Telegram-Music")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/Tequila_Chatting")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mr_sukkun")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/D0N_OF_TELEGRAM")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/worldwide_friend_zone")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
@@ -83,7 +83,7 @@ PING_IMG_URL = getenv(
     "https://telegra.ph/file/ea5d961c346b360882aae.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://telegra.ph/file/97ed9408fa281c0aa88d7.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/b4b8a166a17d53e506522.jpg"
 
 GLOBAL_IMG_URL = "https://telegra.ph/file/af78f019d5ec4fc8b4e64.jpg"
 
